@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Colors from "./pages/Color";
-import Apis from "./pages/Apis";
-import Links from "./pages/Links";
+import CAL from "./pages/CAL";
 import Navbar from "./components/Navbar";
 function App() {
   return <>
@@ -12,9 +10,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element = {<Home />}/>
-      <Route path="/colors" element = {<Colors />}/>
-      <Route path="/links" element = {<Apis />}/>
-      <Route path="/apis" element = {<Links />}/>
+      <Route path="/cal" element = {<CAL />}/>
     </Routes>
   </Router>
   </>;

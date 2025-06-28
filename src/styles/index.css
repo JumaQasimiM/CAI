@@ -4,3 +4,9 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+ul li button:hover{
+    cursor: pointer;
+}
